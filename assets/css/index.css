@@ -1,0 +1,98 @@
+.navbar {
+    background-color: #002b5c; /* Cambia este color por el que desees */
+}
+
+
+.navbar .nav-link {
+    color: #98ff98; /* Color de los enlaces */
+}
+
+#Hero-Section {
+    background-image: url("../pictures/bg-hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #Hero-Section h1 {
+    color: white;
+    font-family: "Kanit Bold", sans-serif;
+  }
+
+  #Hero-Section p {
+    color: white;
+    font-family: "Kanit Light", sans-serif;
+  }
+
+  @font-face {
+    font-family: "Kanit Bold";
+    src: url("../fonts/Kanit-Bold.ttf");
+  }
+
+  @font-face {
+    font-family: "Kanit Light";
+    src: url("../fonts/Kanit-Light.ttf");
+  }
+
+  a, p {
+    font-family: "Kanit Light", sans-serif;
+  }
+
+  /* Contenedor principal con flexbox */
+.contenedor {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: space-between; /* Distribuye el espacio entre el texto y la imagen */
+    gap: 20px; /* Espacio entre el texto y la imagen */
+    padding: 50px;
+    background-color: #E3FCE4;
+}
+
+.contenedor h1 {
+    font-family: "Kanit Bold", sans-serif;
+    color: #003366;
+}
+
+.contenedor p {
+    font-family: "Kanit Light", sans-serif;
+    color: #003366;
+}
+
+/* Estilo para el texto */
+.texto {
+    flex: 1; /* Asegura que el texto ocupe el espacio disponible */
+}
+
+/* Imagen redonda */
+.imagen img {
+    max-width: 200px; /* Ajusta el tamaño de la imagen */
+    height: 200px; /* Asegura que sea cuadrada para aplicar el redondeo */
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    object-fit: cover; /* Asegura que la imagen mantenga su proporción dentro del contenedor circular */
+}
+
+/* Responsividad para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .contenedor {
+        flex-direction: column; /* Coloca el texto y la imagen en columnas en pantallas pequeñas */
+    }
+    .imagen img {
+        max-width: 100%; /* Asegura que la imagen se ajuste a la pantalla */
+    }
+}
+
+.ideas {
+    background-color: #E3FCE4;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.ideas h3 {
+    font-family: "Kanit Bold", sans-serif;
+}
+
+.ideas p {
+    font-family: "Kanit Light", sans-serif;
+}
