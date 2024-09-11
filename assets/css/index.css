@@ -107,7 +107,7 @@ html {
     scroll-behavior: smooth;
 }
 
-.education {
+.educacion {
     background-color: #89CFF0;
     padding-left: 50px;
     padding-top: 50px;
@@ -115,22 +115,22 @@ html {
     padding-bottom: 50px;
 }
 
-.education p {
+.educacion p {
     font-family: "Kanit Light", sans-serif;
     color: #003366;
 }
 
-.education h4 {
+.educacion h4 {
     font-family: "Kanit Bold", sans-serif;
     color: #003366;
 }
 
-.education h1 {
+.educacion h1 {
     font-family: "Kanit Bold", sans-serif;
     color: #003366;
 }
 
-.education img {
+.educacion img {
     width: 200px; /* Ajusta el tamaño de la imagen */
     height: 200px; /* Asegura que sea cuadrada para aplicar el redondeo */
 }
