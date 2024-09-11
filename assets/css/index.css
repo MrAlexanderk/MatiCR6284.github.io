@@ -91,8 +91,46 @@
 
 .ideas h3 {
     font-family: "Kanit Bold", sans-serif;
+    color: #003366;
 }
 
 .ideas p {
     font-family: "Kanit Light", sans-serif;
+    color: #003366;
+}
+
+.img-fluid {
+    width: 40%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.education {
+    background-color: #89CFF0;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.education p {
+    font-family: "Kanit Light", sans-serif;
+    color: #003366;
+}
+
+.education h4 {
+    font-family: "Kanit Bold", sans-serif;
+    color: #003366;
+}
+
+.education h1 {
+    font-family: "Kanit Bold", sans-serif;
+    color: #003366;
+}
+
+.education img {
+    width: 200px; /* Ajusta el tamaño de la imagen */
+    height: 200px; /* Asegura que sea cuadrada para aplicar el redondeo */
 }
