@@ -15,6 +15,11 @@
             crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="assets/css/index.css">
         <script src="https://kit.fontawesome.com/11f267c85b.js" crossorigin="anonymous"></script>
+        <script>
+            window.addEventListener('load', function() {
+                document.body.classList.add('loaded');
+            });
+        </script>
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -225,8 +230,105 @@
                             </div>
                         </div>
                     </section>
-                    
                 </section>
             </main>
+            <section class="portfolio" id="portfolio">
+                <h1>Portfolio personal</h1>
+                <section class="container my-5">
+                    <div class="row g-4">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card h-100">
+                                <img src="assets/pictures/portfolio/01_HTML.png" class="card-img-top" alt="Proyecto 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Curriculum</h5>
+                                    <p class="card-text">Primera versión de mi curriculum y portfolio en lenguaje estructurado de HTML, pronto se incluiría mejor diseño y aspecto.</p>
+                                    <a href="https://github.com/MatiCR6284/Desafio1" class="btn btn-primary" target="_blank">Ver en GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card h-100">
+                                <img src="assets/pictures/portfolio/02_Disquera.png" class="card-img-top" alt="Proyecto 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Disquera Boombox</h5>
+                                    <p class="card-text">Sitio web dedicado a la compra y venta de CD, Vinilos y Cassettes de todo tipo de música, hecha para el melomano que uno es y que aspira a serlo, no importa si es electronica, rock, pop o urbana, cualquier musica es bienvenida.</p>
+                                    <a href="https://github.com/MatiCR6284/Desafio2" class="btn btn-primary" target="_blank">Ver en GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card h-100">
+                                <img src="assets/pictures/portfolio/03_Iguana.png" class="card-img-top" alt="Proyecto 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sitio web Iguana</h5>
+                                    <p class="card-text">Sitio web informativo sobre la iguana (Nombre cientifico: Iguana iguana), todo sobre su aspecto fisico, habilidades, habitat, donde encontrarla, de que se alimenta, cuales tipos hay, entre otros aspectos relevantes.</p>
+                                    <a href="https://github.com/MatiCR6284/Desafio3" class="btn btn-primary" target="_blank">Ver en GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card h-100">
+                                <img src="assets/pictures/portfolio/04_Cupon.png" class="card-img-top" alt="Proyecto 4">
+                                <div class="card-body">
+                                    <h5 class="card-title">Coupon</h5>
+                                    <p class="card-text">Coupon es un sitio web donde puedes comprar y recibir cupones de descuento en tu correo electronico, mucho mejor que el modo tradicional. Todos los cupones que te imaginas, como una sesión de Solarium, un concierto, visita a museos, tours al Sur de Chile, entre otros.</p>
+                                    <a href="https://github.com/tu-usuario/proyecto4" class="btn btn-primary" target="_blank">Ver en GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card h-100">
+                                <img src="assets/pictures/portfolio/05_Blog.png" class="card-img-top" alt="Proyecto 5">
+                                <div class="card-body">
+                                    <h5 class="card-title">Curriculum</h5>
+                                    <p class="card-text">Segunda versión de curriculum o más bien web personal, donde se le aplica mayor conocimiento como CSS y Bootstrap, proximamente se viene nueva versión.</p>
+                                    <a href="https://github.com/tu-usuario/proyecto5" class="btn btn-primary" target="_blank">Ver en GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <section class="contactme" id="contactme">
+                <h2 class="text-center mb-4">Contáctame</h2>
+                <section class="container my-5">
+                    <form>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="nombre" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico">
+                            </div>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="asunto" class="form-label">Asunto</label>
+                            <input type="text" class="form-control" id="asunto" placeholder="Ingresa el asunto">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" rows="5" placeholder="Escribe tu mensaje"></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary"><i class="fa-regular fa-paper-plane"></i> Enviar</button>
+                        </div>
+                    </form>
+                </section>
+            </section>
+            <footer class="bg-dark text-white text-center py-4">
+                <div class="container">
+                    <p class="mb-1">Todos los derechos reservados © 2024</p>
+                    <p class="mb-1">Hecho por <strong>Matías Enrique Cáceres Reyes</strong></p>
+                    <a href="https://www.linkedin.com/in/mat%C3%ADas-enrique-c%C3%A1ceres-reyes-2bb059150/" target="_blank" class="text-white">
+                        <i class="fab fa-linkedin fa-lg"></i><p>Visita mi Linkedin</p></a>
+                </div>
+            </footer>
     </body>
 </html>
