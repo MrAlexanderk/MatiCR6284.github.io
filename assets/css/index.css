@@ -134,3 +134,31 @@ html {
     width: 200px; /* Ajusta el tamaño de la imagen */
     height: 200px; /* Asegura que sea cuadrada para aplicar el redondeo */
 }
+
+.experience {
+    background-color: #f5f5f5;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.experience p {
+    font-family: "Kanit Light", sans-serif;
+    color: #003366;
+}
+
+.experience h4 {
+    font-family: "Kanit Bold", sans-serif;
+    color: #003366;
+}
+
+.experience h1 {
+    font-family: "Kanit Bold", sans-serif;
+    color: #003366;
+}
+
+.experience img {
+    width: 200px; /* Ajusta el tamaño de la imagen */
+    height: 200px; /* Asegura que sea cuadrada para aplicar el redondeo */
+}
